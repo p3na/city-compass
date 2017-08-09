@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- tracker -->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="1"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingTop="@dimen/margin_small"-->
+        <!--android:paddingStart="@dimen/margin_small"-->
+        <!--android:paddingLeft="@dimen/margin_small"-->
+        <!--android:paddingRight="@dimen/margin_small"-->
+        <!--android:paddingEnd="@dimen/margin_small">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".3"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/text_size_default"-->
+            <!--android:text="Target: "/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_target"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".7"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="italic"-->
+            <!--android:text="Target"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!-- battery -->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="1"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingTop="@dimen/margin_small"-->
+        <!--android:paddingStart="@dimen/margin_small"-->
+        <!--android:paddingLeft="@dimen/margin_small"-->
+        <!--android:paddingRight="@dimen/margin_small"-->
+        <!--android:paddingEnd="@dimen/margin_small">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".3"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/text_size_default"-->
+            <!--android:text="Battery: "/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_battery"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".7"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="italic"-->
+            <!--android:text="98%"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!-- coordinates -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_small"
+        android:paddingStart="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_small">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_default"
+            android:text="Coordinates: "/>
+
+        <TextView
+            android:id="@+id/tv_coordinates_location"
+            android:layout_width="0dp"
+            android:layout_weight=".35"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/tv_coordinates_target"
+            android:layout_width="0dp"
+            android:layout_weight=".35"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <!-- distance -->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="1"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingTop="@dimen/margin_small"-->
+        <!--android:paddingStart="@dimen/margin_small"-->
+        <!--android:paddingLeft="@dimen/margin_small"-->
+        <!--android:paddingRight="@dimen/margin_small"-->
+        <!--android:paddingEnd="@dimen/margin_small">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".3"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/text_size_default"-->
+            <!--android:text="Distance: "/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_distances"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight=".7"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="italic"-->
+            <!--android:text="123 km"/>-->
+
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/colorAccent" />
+
+</LinearLayout>
